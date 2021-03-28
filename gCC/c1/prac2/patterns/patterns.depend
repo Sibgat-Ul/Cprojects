@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616508281 source:/home/sibyz/Documents/gCC/c1/prac2/patterns/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

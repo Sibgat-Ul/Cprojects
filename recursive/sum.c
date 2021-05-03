@@ -1,20 +1,19 @@
 #include <stdio.h>
 
-int sum_natural(int x) {
-  int total = 0;
+int sum(int x) {
   if (x > 0) {
-    return x + sum_natural(x-1);
+    return x + sum(x-1);
   }
 }
 
 int main () {
-  int x, sum;
+  int x, suma;
 
   printf("Total: ");
   scanf("%d", &x);
 
-  sum = sum_natural(x);
-  printf("%d\n", sum);
+  suma = sum(x);
+  printf("%d\n", suma);
 
 
 
